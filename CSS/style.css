@@ -1,0 +1,107 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(../image/background\ cover\ image.jpg);
+    font-family: "Poetsen One", sans-serif;
+}
+
+.left{
+    display: inline-block;
+    border: 2px solid saddlebrown;
+    position:absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img{
+    width: 100px;
+    /* filter: invert(100%); */
+}
+
+.left div{
+    text-align: center;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.mid{
+    display: block;
+    width: 36%px;
+    margin: 43px auto;
+    border: 2px solid green;
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    border: 2px solid blue;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+
+.btn{
+    font-family: "Poetsen One", sans-serif;
+    margin: 0px 9px;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: darkgray;
+}
+
+.container{
+    border: 2px solid rgb(255, 255, 255);
+    margin: 100px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 30px ;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container button{
+    display: block;
+    width: 75%;
+    margin: 20px auto;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 10px;
+    margin:10px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Poetsen One", sans-serif;
+}
